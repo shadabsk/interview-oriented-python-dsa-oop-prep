@@ -31,7 +31,7 @@ Explanation:
 '''
 
 
-def find_max_balanced_paranthesis(input_str):
+def find_max_balanced_parantheses(input_str):
     stack = []
     start_ptr = 0
     result_list = []
@@ -56,5 +56,5 @@ def find_max_balanced_paranthesis(input_str):
 
 input_str = '(()))()()'
 print(
-    find_max_balanced_paranthesis(input_str)
+    find_max_balanced_parantheses(input_str)
 )
