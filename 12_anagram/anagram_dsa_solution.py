@@ -39,7 +39,6 @@ for word in input_list:
 print(list(result_list.values()))
 
 
-
 # Without using defaultdict
 result_dict = {}
 
@@ -54,4 +53,4 @@ for word in input_list:
 
     result_dict[key].append(word)
 
-print(list(result_list.values()))
+print(list(result_dict.values()))
