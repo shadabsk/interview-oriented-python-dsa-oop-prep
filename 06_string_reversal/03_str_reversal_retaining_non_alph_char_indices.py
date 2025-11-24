@@ -21,7 +21,7 @@ Output:
 input_str = "abcd-efg-12-xyz"
 reverse_str = ""
 
-non_char_index_info_map = {}
+non_alph_char_index_info_map = {}
 for idx, cur_char in enumerate(input_str):
     if (
         ord('a') <= ord(cur_char) <= ord('z') or
@@ -29,13 +29,13 @@ for idx, cur_char in enumerate(input_str):
     ):
         reverse_str = cur_char + reverse_str
     else:
-        non_char_index_info_map[idx] = cur_char
+        non_alph_char_index_info_map[idx] = cur_char
 
 reverse_str_list = list(reverse_str)
-for idx, val in non_char_index_info_map.items():
+for idx, val in non_alph_char_index_info_map.items():
     reverse_str_list.insert(idx, val)
 
 print(reverse_str)
-print(non_char_index_info_map)
+print(non_alph_char_index_info_map)
 
 print("".join(reverse_str_list))
