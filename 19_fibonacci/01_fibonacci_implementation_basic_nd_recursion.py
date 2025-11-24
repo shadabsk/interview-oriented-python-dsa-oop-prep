@@ -37,8 +37,8 @@ def generate_finbonacci(n):
 print(generate_finbonacci(6))
 
 
-
 # fibonacci using function and conditions
+
 def generate_finbonacci_using_recursion(n):
     fibo_ser_list = [0, 1]
 
