@@ -19,10 +19,10 @@ def binary_search(input_list, target):
     while (left <= right):
         mid = left + (right - left) // 2
 
-        if mid == target:
+        if input_list[mid] == target:
             return mid, True
 
-        if mid > target:
+        if input_list[mid] > target:
             right = mid - 1
         else:
             left = mid + 1
@@ -33,6 +33,6 @@ def binary_search(input_list, target):
 print(
     binary_search(
         [1, 2, 3, 4, 5],
-        2
+        4
     )
 )
