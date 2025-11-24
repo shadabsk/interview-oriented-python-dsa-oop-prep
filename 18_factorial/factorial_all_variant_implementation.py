@@ -29,6 +29,12 @@ def get_factorial_using_recursion(n):
     if n <= 1:
         return factorial_result
 
+    '''
+    '5 -> 4 => 120'
+    '4 -> 3 => 24'
+    '3 -> 2 => 6'
+    '2 -> 1 => 2'
+    '''
     return n * get_factorial(n - 1)
 
 
