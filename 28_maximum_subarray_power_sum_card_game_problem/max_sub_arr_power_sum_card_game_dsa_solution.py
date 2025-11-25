@@ -23,6 +23,7 @@ picking 4 + 1 = 5 by combining best positive contributions.
 The best possible sum is 5.
 '''
 
+
 def find_cur_max_card_picked(cur_card_list):
     power_sum = 0
     max_card_picked = 0
@@ -45,6 +46,7 @@ def get_max_card_picked(card_list):
 
     print(result_list)
     return sorted(result_list)[-1]
+
 
 card_list = [4, -4, 1, -3, 1, -3]
 
