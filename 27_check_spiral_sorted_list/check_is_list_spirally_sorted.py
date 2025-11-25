@@ -53,6 +53,22 @@ def check_is_spirally_sorted(input_list):
     return True
 
 
+input_list = [0, 3, 4, 2]
+print(
+    check_is_spirally_sorted(
+        input_list
+    )
+)
+
+
+input_list = [0, 2, 4, 2]
+print(
+    check_is_spirally_sorted(
+        input_list
+    )
+)
+
+
 input_list = [0, 2, 1, 2]
 print(
     check_is_spirally_sorted(
