@@ -17,7 +17,7 @@ Input:
 [3, 1, 2, 4, 5]
 
 Output: -> [max_sum, min_sum]
-[12, 3]
+[12, 6]
 '''
 
 
@@ -38,7 +38,7 @@ def find_max_sum(sorted_input_list, k):
 
 
 def find_min_sum(sorted_input_list, k):
-    return sum(sorted_input_list[:k])
+    return sum(sorted_input_list[:k+1])
 
 
 def find_max_min_sum(input_list, k):
